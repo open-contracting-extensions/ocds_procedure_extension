@@ -1,0 +1,21 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "procurementMethodModalities": {
+          "title": "Procurement method modalities",
+          "description": "The modalities of the procurement method.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "codelist": "methodModality.csv",
+          "openCodelist": true
+        }
+      }
+    }
+  }
+}

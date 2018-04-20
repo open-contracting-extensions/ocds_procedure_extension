@@ -1,0 +1,15 @@
+{
+  "name": {
+    "en": "Procurement Method Modalities"
+  },
+  "description": {
+    "en": "Adds a field for information on the modalities of procurement methods."
+  },
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_procurementMethodModalities_extension"
+  },
+  "compatibility": [
+    "1.0",
+    "1.1"
+  ]
+}
