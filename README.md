@@ -6,7 +6,7 @@ This extension adds a field for information on the modalities of procurement met
 
 A procurement method may be modulated in a variety of ways, for example: a buyer, in a competitive procedure with negotiation, may reserve the possibility of awarding contracts on the basis of the initial bids without negotiation.
 
-The `procurementMethodModalities` field should be used to indicate such modalities, using either `methodModality` or user-assigned codes.
+The `tender/procurementMethodModalities` field should be used to indicate such modalities, using either `methodModality` or user-assigned codes.
 
 ## Legal context
 
