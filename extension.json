@@ -13,5 +13,8 @@
   ],
   "codelists": [
     "methodModality.csv"
+  ],
+  "schemas": [
+    "release-schema.json"
   ]
 }
