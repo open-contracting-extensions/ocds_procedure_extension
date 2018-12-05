@@ -23,20 +23,15 @@ The European Union's [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-cont
 
 ## Example
 
-```eval_rst
-.. jsoninclude:: docs/examples/example.json
-   :jsonpointer: 
-   :expand: 
-```
-
-## Codelists
-
-### Method modality
-
-```eval_rst
-.. csv-table-no-translate::
-   :header-rows: 1
-   :file: build/codelists/current_lang/methodModality.csv
+```json
+{
+  "tender": {
+    "procurementMethodModalities": [
+      "joint",
+      "negotiated"
+    ]
+  }
+}
 ```
 
 ## Issues
