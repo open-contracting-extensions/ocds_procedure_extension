@@ -13,7 +13,8 @@
             "type": "string"
           },
           "codelist": "methodModality.csv",
-          "openCodelist": true
+          "openCodelist": true,
+          "uniqueItems": true
         }
       }
     }
