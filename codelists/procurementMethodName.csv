@@ -2,8 +2,8 @@ Code,Title,Description
 open,Open,All interested suppliers can submit a tender
 restricted,Restricted,"Any economic operator may submit a request to participate in response to a tender but the operators selected by the procuring entity may bid."
 negotiatedWithCallForCompetition,Negotiated with prior publication of a call for competition,
-negotiatedWithoutCallForCompetition,Negotiated without prior publication of a call for competition,
-competitiveDialogue,Competitive dialogue,
-innovationPartnership,Innovation partnership,
-otherSingleStage,Other single stage procedure,
-otherMultipleStage,Other multiple stage procedure,
+negotiatedWithoutCallForCompetition,Negotiated without prior publication of a call for competition,TODO
+competitiveDialogue,Competitive dialogue,TODO
+innovationPartnership,Innovation partnership,TODO
+otherSingleStage,Other single stage procedure,TODO
+otherMultipleStage,Other multiple stage procedure,TODO

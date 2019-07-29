@@ -7,7 +7,7 @@
 					"description": "The name of the method is more specific than `procurementMethod`. See README.md for guidance.",
 					"type": ["string", "null"],
 					"openCodelist": false,
-					"codelist": "procurementProcedureName.csv"
+					"codelist": "procurementMethodName.csv"
 				},
 				"acceleratedProcedure": {
 					"title": "Accelerated procedure",
