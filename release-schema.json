@@ -9,7 +9,7 @@
             "string",
             "null"
           ],
-          "openCodelist": false,
+          "openCodelist": true,
           "codelist": "procurementMethodName.csv"
         },
         "acceleratedProcedure": {
