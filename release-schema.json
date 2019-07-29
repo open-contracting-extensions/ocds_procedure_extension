@@ -22,7 +22,17 @@
           "codelist": "methodModality.csv",
           "openCodelist": true,
           "uniqueItems": true
-        }
+      },
+      "acceleratedProcedure": {
+          "title": "Accelerated procedure",
+          "description": "Whether or not the delay for tenderers to bid is shorter than the usual legal delay.",
+          "type": ["boolean","null"],
+      },
+      "acceleratedProcedureRationale": {
+          "title": "Accelerated procedure rationale",
+          "description": "The rationale for choosing to proceed with an accelerated procedure.",
+          "type": ["string","null"]
+      }
       }
     }
   }
