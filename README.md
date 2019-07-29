@@ -1,6 +1,6 @@
-# Procurement proc modalities 0.2.0
+# Procurement method modalities 0.3.0
 
-This extension adds a field for information on the modalities of procurement methods in order to clarify further the procedure.
+This extension adds a field for information on the modalities of procurement methods in order to decribe the procedure.
 
 ## Usage
 
