@@ -1,7 +1,3 @@
 Code,Title,Description
-accelerated,Accelerated procedure,The time limit for the receipt of bids or requests to participate is less than the prescribed minimum time limit.
-electronicAuction,Electronic auction,The procurement method involves electronic auction.
 joint,Joint procurement,"The buyer is a centralized purchasing body, or there are two or more buyers."
-negotiated,Negotiated procedure,The procurement method involves negotiation.
-optionallyNegotiated,Optionally negotiated procedure,The buyer may award contracts on the basis of the initial bids without negotiation.
 staged,Successive stages,The number of bids to be negotiated or solutions to be discussed are reduced in successive stages of the procedure.
