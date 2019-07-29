@@ -9,20 +9,6 @@
              "openCodelist": false,
              "codelist": "procurementProcedureName.csv"
          },
-        "procurementMethodModalities": {
-          "title": "Procurement method modalities",
-          "description": "The modalities of the procurement method.",
-          "type": [
-            "array",
-            "null"
-          ],
-          "items": {
-            "type": "string"
-          },
-          "codelist": "methodModality.csv",
-          "openCodelist": true,
-          "uniqueItems": true
-      },
       "acceleratedProcedure": {
           "title": "Accelerated procedure",
           "description": "Whether or not the delay for tenderers to bid is shorter than the usual legal delay.",

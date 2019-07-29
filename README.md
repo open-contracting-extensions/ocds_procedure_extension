@@ -6,7 +6,7 @@ This extension adds a field for information on the modalities of procurement met
 
 The core OCDS field `procurementMethod` broadly describes the type of method. In order to describe the procedure is more specific terms, this extension adds the `procurementMethodName`. The code list (`codelists/procurementProcedureName.csv`) for this field is inspired by the European eForms directive, but it's also compatible with TED forms and aims at supporting the broadest possible range of use cases, even in non-European contexts.
 
-Furthermore, a procurement method may be modulated in a variety of ways. The `tender/procurementMethodModalities` field should be used to indicate such modalities.
+The term "method" used in this documentation corresponds to the term "procedure" in European legislation.
 
 ## Guidance
 
@@ -55,6 +55,12 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Release notes
 
+### 0.3.0
+
+- Removed the `procurementMethodModalities` and the related code list entirely
+    - the `joint` modality can be expressed by adding more buyers in the `parties` array.
+    - the `staged` modality can be expressed with the `stagedProcedure` boolean
+
 ### 0.2.0
 
 - Added the `procurementMethodName` and its code list, based on the eForms directive
@@ -62,7 +68,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
     - redundant with other OCDS core properties
     - `negotiated` and `optionallyNegotiated`: replaced with relevant codes in the `procurementMethodName` code list
     - `accelerated`: replaced with `acceleratedProcedure`
-    - `electronicAuction`: moved to the `electronicAuction` field in the [procurement technique extension](https://github.com/open-contracting-extensions/ocds_procurement_techniques_extension) in order to distinguish method (= procedure) and technique terms
+    - `electronicAuction`: moved to the `electronicAuction` field in the [procurement technique extension](https://github.com/open-contracting-extensions/ocds_procurement_techniques_extension) in order to distinguish method and technique terms
 
 
 ### 0.1.0

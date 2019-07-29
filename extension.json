@@ -3,7 +3,7 @@
     "en": "Procurement Method Modalities"
   },
   "description": {
-    "en": "Adds a field for the name and information on the modalities of the procurement method."
+    "en": "Adds extra information about the procurement method."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_procurementMethodModalities_extension"
@@ -12,7 +12,6 @@
     "1.1"
   ],
   "codelists": [
-    "methodModality.csv",
     "procurementMethodName.csv"
   ],
   "schemas": [
