@@ -1,35 +1,35 @@
 {
-  "definitions": {
-    "Tender": {
-      "properties": {
-         "procurementMethodName": {
-             "title": "Procurement method name",
-             "description": "The name of the method is more specific than `procurementMethod`. See README.md for guidance.",
-             "type": ["string","null"],
-             "openCodelist": false,
-             "codelist": "procurementProcedureName.csv"
-         },
-      "acceleratedProcedure": {
-          "title": "Accelerated procedure",
-          "description": "Whether or not the delay for tenderers to bid is shorter than the usual legal delay.",
-          "type": ["boolean","null"]
-      },
-      "acceleratedProcedureRationale": {
-          "title": "Accelerated procedure rationale",
-          "description": "The rationale for choosing to proceed with an accelerated procedure.",
-          "type": ["string","null"]
-      },
-      "stagedProcedure": {
-          "title": "Staged procedure",
-          "description": "The procedure will take place in successive stages. In each stage, some participants may be eliminated.",
-          "type": ["boolean","null"]
-      },
-      "possiblyNoNegotiation": {
-          "title": "Possibly no negotiation",
-          "description": "TThe procuring entity reserves the right to award the contract on the basis of the initial bids without any further negotiations.",
-          "type": ["boolean","null"]
-      }
-      }
-    }
-  }
+	"definitions": {
+		"Tender": {
+			"properties": {
+				"procurementMethodName": {
+					"title": "Procurement method name",
+					"description": "The name of the method is more specific than `procurementMethod`. See README.md for guidance.",
+					"type": ["string", "null"],
+					"openCodelist": false,
+					"codelist": "procurementProcedureName.csv"
+				},
+				"acceleratedProcedure": {
+					"title": "Accelerated procedure",
+					"description": "Whether or not the delay for tenderers to bid is shorter than the usual legal delay.",
+					"type": ["boolean", "null"]
+				},
+				"acceleratedProcedureRationale": {
+					"title": "Accelerated procedure rationale",
+					"description": "The rationale for choosing to proceed with an accelerated procedure.",
+					"type": ["string", "null"]
+				},
+				"stagedProcedure": {
+					"title": "Staged procedure",
+					"description": "The procedure will take place in successive stages. In each stage, some participants may be eliminated.",
+					"type": ["boolean", "null"]
+				},
+				"possiblyNoNegotiation": {
+					"title": "Possibly no negotiation",
+					"description": "TThe procuring entity reserves the right to award the contract on the basis of the initial bids without any further negotiations.",
+					"type": ["boolean", "null"]
+				}
+			}
+		}
+	}
 }
