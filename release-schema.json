@@ -43,7 +43,52 @@
             "boolean",
             "null"
           ]
-        }
+        },
+        "bidOpeningPlace": {
+          "title": "Bid opening place",
+          "description": "The address or location of the place where the bids will be pulicly opened.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bidOpeningProcedure": {
+          "title": "Bid opening procedure",
+          "description": "The procedure to open the bids and the information about the people authorised to attend.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "recurrentProcurement": {
+          "title": "Recurrent procurement",
+          "description": "Whether or not the purchased items are likely to be purchased again in the foreseeable future. This doesn't include framework agreements or dynamic purchasing systems, in which recurrence is implied.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "recurrentProcurementDetails": {
+          "title": "Recurrent procurement details",
+          "description": "Details about the recurrence of the procedure, such as timings.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "invitationsForInterestDispatchDate": {
+          "title": "Invitation for interest dispath date",
+          "description": "The estimated date of dispatch of the invitations to confirm interest.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "invitationsForBidsDispatchDate": {
+          "title": "Invitation for bids dispath date",
+          "description": "The estimated date of dispatch of the invitations to submit bids in two (or more) stage procedures.",
+          "type": "string",
+          "format": "date-time"
+      }
+      }
       }
     }
   }
