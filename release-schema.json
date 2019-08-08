@@ -8,9 +8,7 @@
           "type": [
             "string",
             "null"
-          ],
-          "openCodelist": true,
-          "codelist": "procurementMethodName.csv"
+          ]
         },
         "acceleratedProcedure": {
           "title": "Accelerated procedure",

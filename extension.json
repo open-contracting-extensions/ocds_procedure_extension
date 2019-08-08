@@ -11,9 +11,6 @@
   "compatibility": [
     "1.1"
   ],
-  "codelists": [
-    "procurementMethodName.csv"
-  ],
   "schemas": [
     "release-schema.json"
   ]
