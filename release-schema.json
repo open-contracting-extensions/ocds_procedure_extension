@@ -5,7 +5,7 @@
         "procedure": {
           "title": "Procedure",
           "description": "Information about the procurement procedure",
-          "$ref": "#/defintions/Procedure"
+          "$ref": "#/definitions/Procedure"
         }
       }
     },
