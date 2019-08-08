@@ -41,11 +41,12 @@ The European Union's [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-cont
 ```json
 {
   "tender": {
-    "procurementMethodName": "restricted",
-    "procurementMethodModalities": [
-      "joint"
-    ]
-  }
+        "procedure": {
+            "name": "innovativePartnership",
+            "hasAcceleratedProcedure": true,
+            "acceleratedProcedureRationale": "The medicinal  product  is  of  major  public  health  interest  particularly from the point of view of therapeutic innovation.",
+        }
+    }
 }
 ```
 

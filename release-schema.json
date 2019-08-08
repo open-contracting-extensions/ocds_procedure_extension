@@ -2,16 +2,28 @@
   "definitions": {
     "Tender": {
       "properties": {
-        "procurementMethodName": {
-          "title": "Procurement method name",
-          "description": "The name of the method is more specific than `procurementMethod`. See README.md for guidance.",
+        "procedure": {
+          "title": "Procedure",
+          "description": "Information about the procurement procedure",
+          "$ref": "#/defintions/Procedure"
+        }
+      }
+    },
+    "Procedure": {
+      "title": "Procedure",
+      "description": "Information about the procurement procedure",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Procedure name",
+          "description": "The name of the procedure is more specific than `procurementMethod`.",
           "type": [
             "string",
             "null"
           ]
         },
-        "acceleratedProcedure": {
-          "title": "Accelerated procedure",
+        "hasAcceleratedProcedure": {
+          "title": "Accelerated procedure used",
           "description": "Whether or not the delay for tenderers to bid is shorter than the usual legal delay.",
           "type": [
             "boolean",

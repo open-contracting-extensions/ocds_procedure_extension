@@ -1,9 +1,9 @@
 {
   "name": {
-    "en": "Procurement Method Modalities"
+    "en": "Procedure"
   },
   "description": {
-    "en": "Adds extra information about the procurement method."
+    "en": "This extension adds a block to decribe the procedure."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_procurementMethodModalities_extension"
