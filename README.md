@@ -1,6 +1,6 @@
-# Procurement method modalities 0.3.0
+# Procedure 0.4.0
 
-This extension adds a field for information on the modalities of procurement methods in order to decribe the procedure.
+This extension adds a block to decribe the procedure.
 
 ## Usage
 
@@ -55,6 +55,21 @@ The European Union's [Directive 2014/24/EU](https://eur-lex.europa.eu/legal-cont
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Release notes
+
+### 0.4.0
+
+- Renamed the extension "procedure"
+- Nested the fields into a `Procedure` object
+- removed:
+    - `stagedProcedure`
+    - `noNegotiationNecessary` (=> [secondStage extension](https://github.com/open-contracting-extensions/ocds_secondStage_extension))
+    - `bidOpeningPlace` (=> bid opening extension)
+    - `bidOpeningProcedure` (=> bid opening extension)
+    - `recurrentProcurement` (=> purpose)
+    - `recurrentProcurementDetails` (=> purpose)
+    - `invitationsForInterestDispatchDate` (=> communication)
+    - `invitationsForBidDispatchDate` (=> communication)
+    - the `procurementMethodName` code list (=> [EU extension](https://github.com/open-contracting-extensions/ocds_eu_extension))
 
 ### 0.3.0
 
