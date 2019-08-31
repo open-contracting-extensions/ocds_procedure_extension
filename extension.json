@@ -3,10 +3,10 @@
     "en": "Procedure"
   },
   "description": {
-    "en": "This extension adds a block to decribe the procedure."
+    "en": "This extension adds a block to describe the procurement procedure."
   },
   "documentationUrl": {
-    "en": "https://github.com/open-contracting-extensions/ocds_procurementMethodModalities_extension"
+    "en": "https://github.com/open-contracting-extensions/ocds_procedure_extension"
   },
   "compatibility": [
     "1.1"
