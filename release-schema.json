@@ -14,14 +14,6 @@
       "description": "Information about the procurement procedure",
       "type": "object",
       "properties": {
-        "name": {
-          "title": "Procedure name",
-          "description": "The name of the procedure is more specific than `procurementMethod`.",
-          "type": [
-            "string",
-            "null"
-          ]
-        },
         "hasAcceleratedProcedure": {
           "title": "Accelerated procedure used",
           "description": "Whether or not the delay for tenderers to bid is shorter than the usual legal delay.",
