@@ -10,7 +10,8 @@ This extension adds a block to decribe the procurement procedure.
     "procedure": {
       "isAccelerated": true,
       "acceleratedRationale": "The medicinal product is of major public health interest particularly from the point of view of therapeutic innovation."
-    }
+    },
+    "features": "http://www.legislation.gov.uk/uksi/2015/102/pdfs/uksi_20150102_en.pdf"
   }
 }
 ```

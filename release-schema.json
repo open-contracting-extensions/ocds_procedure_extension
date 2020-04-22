@@ -29,6 +29,14 @@
             "string",
             "null"
           ]
+        },
+        "features": {
+          "title": "Features",
+          "description": "The national rules that apply to the procedure.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }
