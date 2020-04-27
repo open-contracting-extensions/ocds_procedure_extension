@@ -32,7 +32,7 @@
         },
         "features": {
           "title": "Features",
-          "description": "The national rules that apply to the procedure.",
+          "description": "The main features of the procedure (e.g. description of the individual stages) and information about where the full rules for the procedure can be found.",
           "type": [
             "string",
             "null"

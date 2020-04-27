@@ -4,7 +4,7 @@ This extension adds a block to decribe the procurement procedure.
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BT-88, BT-106, BT-1351](https://github.com/eForms/eForms) and [Article 93 and 45 clause 3 of Directive 2014/25/EU](https://eur-lex.europa.eu/eli/dir/2014/25/oj). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+In the European Union, this extension's fields correspond to [eForms BT-88, BT-106, BT-1351](https://github.com/eForms/eForms) and [Article 93 and 45(3) of Directive 2014/25/EU](https://eur-lex.europa.eu/eli/dir/2014/25/oj). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
 
 ## Example
 
