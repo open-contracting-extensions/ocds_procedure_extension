@@ -28,7 +28,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "features": {
           "title": "Features",
@@ -38,7 +39,8 @@
             "null"
           ]
         }
-      }
+      },
+      "minProperties": 1
     }
   }
 }
