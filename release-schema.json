@@ -30,6 +30,14 @@
             "null"
           ],
           "minLength": 1
+        },
+        "features": {
+          "title": "Features",
+          "description": "The main features of the procedure (e.g. description of the individual stages) and information about where the full rules for the procedure can be found.",
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "minProperties": 1

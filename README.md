@@ -2,6 +2,10 @@
 
 This extension adds a block to decribe the procurement procedure.
 
+## Legal context
+
+In the European Union, this extension's fields correspond to [eForms BT-88, BT-106, BT-1351](https://github.com/eForms/eForms) and [Article 93 and 45(3) of Directive 2014/25/EU](https://eur-lex.europa.eu/eli/dir/2014/25/oj). See [OCDS for the European Union](http://standard.open-contracting.org/profiles/eu/master/en/) for the correspondences to Tenders Electronic Daily (TED).
+
 ## Example
 
 ```json
@@ -9,7 +13,8 @@ This extension adds a block to decribe the procurement procedure.
   "tender": {
     "procedure": {
       "isAccelerated": true,
-      "acceleratedRationale": "The medicinal product is of major public health interest particularly from the point of view of therapeutic innovation."
+      "acceleratedRationale": "The medicinal product is of major public health interest particularly from the point of view of therapeutic innovation.",
+      "features": "http://www.legislation.gov.uk/uksi/2015/102/pdfs/uksi_20150102_en.pdf"
     }
   }
 }
