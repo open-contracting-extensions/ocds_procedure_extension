@@ -1,6 +1,6 @@
 # Procedure
 
-This extension adds a block to decribe the procurement procedure.
+This extension adds a block to describe the procurement procedure.
 
 ## Legal context
 
